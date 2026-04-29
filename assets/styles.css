@@ -3902,3 +3902,64 @@ canvas {
   .hero-buttons {
     width: 100%;
   }
+   
+/* =========================================================
+   AJUSTE FINAL CELULAR: MÁRGENES REALES
+========================================================= */
+
+@media (max-width: 760px) {
+  .hero {
+    padding-left: 18px !important;
+    padding-right: 34px !important;
+  }
+
+  .hero-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .status-pill {
+    max-width: calc(100vw - 52px) !important;
+  }
+
+  .hero h1 {
+    max-width: calc(100vw - 52px) !important;
+    font-size: 37px !important;
+    line-height: 1.12 !important;
+    letter-spacing: -1px !important;
+  }
+
+  .hero-content p {
+    max-width: calc(100vw - 52px) !important;
+    font-size: 16px !important;
+    line-height: 1.65 !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .hero-buttons {
+    max-width: calc(100vw - 52px) !important;
+  }
+
+  .hero-buttons .btn {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero {
+    padding-left: 18px !important;
+    padding-right: 36px !important;
+  }
+
+  .hero h1 {
+    font-size: 35px !important;
+    max-width: calc(100vw - 54px) !important;
+  }
+
+  .hero-content p,
+  .hero-buttons,
+  .status-pill {
+    max-width: calc(100vw - 54px) !important;
+  }
+     }
