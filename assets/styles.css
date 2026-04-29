@@ -3963,3 +3963,36 @@ canvas {
     max-width: calc(100vw - 54px) !important;
   }
      }
+
+/* =========================================================
+   AIRE ENTRE BENEFICIOS Y RECUADRO PROYECTO WEB EN CELULAR
+========================================================= */
+
+@media (max-width: 760px) {
+  .mini-benefits {
+    margin-bottom: 42px !important;
+    gap: 22px !important;
+  }
+
+  .mini-benefit {
+    padding-bottom: 4px;
+  }
+
+  .hero-visual {
+    margin-top: 36px !important;
+  }
+
+  .dashboard-card {
+    margin-top: 18px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .mini-benefits {
+    margin-bottom: 48px !important;
+  }
+
+  .hero-visual {
+    margin-top: 42px !important;
+  }
+}
