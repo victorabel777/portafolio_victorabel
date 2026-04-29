@@ -3839,3 +3839,66 @@ canvas {
     padding-right: 18px;
   }
 }
+
+/* =========================================================
+   ARREGLO REAL PARA CELULAR - CENTRAR TODO
+========================================================= */
+
+@media (max-width: 760px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar,
+  .hero,
+  .section,
+  .stats-section,
+  .contact-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .status-pill {
+    width: auto;
+    max-width: 100%;
+    display: inline-flex;
+    padding: 14px 18px;
+    font-size: 15px;
+  }
+
+  .hero h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 43px;
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  .hero-content p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+
+  .hero-buttons {
+    width: 100%;
+  }
