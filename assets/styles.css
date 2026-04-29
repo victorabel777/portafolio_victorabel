@@ -3678,3 +3678,164 @@ body.no-scroll {
   color: var(--muted);
   font-size: 13px;
 }
+
+/* =========================================================
+   CORRECCIÓN FINAL PARA CELULAR
+   Evita que la página se cargue a la derecha o genere scroll horizontal.
+========================================================= */
+
+/* Hace que los tamaños incluyan padding y borde */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Evita movimiento horizontal en toda la página */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Evita que elementos grandes rompan el ancho */
+img,
+video,
+svg,
+canvas {
+  max-width: 100%;
+}
+
+/* Ajustes fuertes para celular */
+@media (max-width: 760px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .status-pill {
+    width: 100%;
+    max-width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hero h1 {
+    width: 100%;
+    max-width: 100%;
+
+    font-size: clamp(42px, 12vw, 56px);
+    line-height: 1.08;
+    letter-spacing: -2px;
+
+    overflow-wrap: break-word;
+  }
+
+  .hero-content p {
+    width: 100%;
+    max-width: 100%;
+
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .hero-buttons {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .mini-benefits {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mini-benefit {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section,
+  .stats-section,
+  .contact-section {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+  }
+
+  .project-card,
+  .service-card,
+  .contact-box,
+  .extra-services-box {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Ajuste para celulares más angostos */
+@media (max-width: 420px) {
+
+  .navbar {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .hero {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .hero h1 {
+    font-size: clamp(38px, 11vw, 48px);
+    letter-spacing: -1.5px;
+  }
+
+  .hero-content p {
+    font-size: 17px;
+  }
+
+  .status-pill {
+    font-size: 14px;
+    padding: 14px 16px;
+  }
+
+  .section,
+  .stats-section,
+  .contact-section {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
