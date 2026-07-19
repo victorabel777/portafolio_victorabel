@@ -2,7 +2,7 @@
 
 ## Imagen principal
 
-`assets/va-neon-hero-v2.png` fue creada especialmente para este portafolio mediante generación de imagen de OpenAI. Es una composición original basada en la dirección visual solicitada por Víctor Abel.
+`assets/va-neon-hero-recovered.png` fue creada especialmente para este portafolio mediante generación de imagen de OpenAI. Es una composición original basada en la dirección visual solicitada por Víctor Abel.
 
 ## Fotografías de proyectos
 

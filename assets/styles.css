@@ -157,7 +157,7 @@ img { display: block; max-width: 100%; }
   position: absolute;
   z-index: -3;
   inset: 0;
-  background: url("va-neon-hero-v2.png") 46% 50% / cover no-repeat;
+  background: url("va-neon-hero-recovered.png") 46% 50% / cover no-repeat;
   animation: heroIn 1.5s cubic-bezier(.2, .7, .2, 1) both;
 }
 .hero-shade {
