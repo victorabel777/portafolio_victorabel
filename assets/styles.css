@@ -682,6 +682,112 @@ img { display: block; max-width: 100%; }
   to { transform: translateX(100%); }
 }
 
+.mosaic-card.mosaic-photo {
+  min-height: 300px;
+  padding: 0;
+  color: #fff;
+  background: var(--panel);
+}
+.mosaic-card.mosaic-photo::before {
+  z-index: 1;
+  inset: 0;
+  width: auto;
+  height: auto;
+  background: linear-gradient(to top, rgba(3, 7, 17, .96), rgba(3, 7, 17, .08) 68%);
+  border-radius: 0;
+}
+.mosaic-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .55s ease, filter .4s ease;
+}
+.mosaic-photo:hover img { transform: scale(1.045); filter: saturate(1.14); }
+.mosaic-photo > div {
+  position: relative;
+  z-index: 2;
+  padding: 24px;
+}
+.mosaic-photo > div span {
+  display: inline-flex;
+  margin-bottom: 58px;
+  padding: 6px 8px;
+  color: var(--night);
+  background: var(--lime);
+  border-radius: 7px;
+  font: 800 .56rem var(--display);
+}
+.mosaic-photo h3 { font-size: 1.25rem; }
+.mosaic-photo p { color: #c8d2e2; line-height: 1.55; }
+
+.career {
+  padding: 25px 0 145px;
+}
+.career-grid {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 18px;
+}
+.career-feature {
+  position: relative;
+  min-height: 610px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+}
+.career-feature::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(3, 7, 17, .98), rgba(3, 7, 17, .05) 70%);
+}
+.career-feature img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .65s ease;
+}
+.career-feature:hover img { transform: scale(1.035); }
+.career-feature > div {
+  position: absolute;
+  z-index: 2;
+  right: 36px;
+  bottom: 38px;
+  left: 36px;
+}
+.career-feature small { color: var(--lime); font-weight: 900; letter-spacing: .15em; }
+.career-feature h3 { margin: 12px 0 14px; font: 650 clamp(2rem, 4vw, 4rem)/.95 var(--display); letter-spacing: -.06em; }
+.career-feature p { max-width: 660px; margin: 0; color: #c2cddd; font-size: .7rem; line-height: 1.75; }
+.career-list {
+  display: grid;
+  gap: 10px;
+}
+.career-list article {
+  min-height: 142px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  transition: transform .25s, border-color .25s;
+}
+.career-list article:hover { transform: translateX(5px); border-color: rgba(201, 255, 24, .35); }
+.career-list span { color: var(--lime); font: 800 .57rem var(--display); letter-spacing: .08em; }
+.career-list h3 { margin: 0 0 8px; font: 650 1rem var(--display); }
+.career-list p { margin: 0; color: var(--muted); font-size: .62rem; line-height: 1.65; }
+
+.certificate-stack a { width: 62%; }
+.certificate-stack a:nth-child(1) { z-index: 4; top: 1%; left: 0; transform: rotate(-6deg); }
+.certificate-stack a:nth-child(2) { z-index: 3; top: 13%; right: 0; transform: rotate(7deg); }
+.certificate-stack a:nth-child(3) { z-index: 2; bottom: 12%; left: 3%; transform: rotate(-3deg); }
+.certificate-stack a:nth-child(4) { z-index: 1; right: 4%; bottom: 0; transform: rotate(4deg); }
+.certificate-stack img { height: 250px; }
+
 @media (max-width: 1180px) {
   .main-menu { gap: 18px; }
   .hero-content > * { width: 52%; }
@@ -689,6 +795,8 @@ img { display: block; max-width: 100%; }
   .hero h1 { font-size: clamp(4.7rem, 8vw, 7.2rem); }
   .profile-layout { grid-template-columns: 1fr; }
   .profile-main { min-height: 410px; }
+  .career-grid { grid-template-columns: 1fr; }
+  .career-feature { min-height: 540px; }
   .project-case, .project-case.reverse {
     grid-template-columns: 80px 1fr;
     min-height: auto;
@@ -793,6 +901,11 @@ img { display: block; max-width: 100%; }
   .profile-main { min-height: 460px; padding: 26px; }
   .profile-mosaic { grid-template-columns: 1fr; }
   .mosaic-card { min-height: 225px; }
+  .mosaic-card.mosaic-photo { min-height: 320px; }
+  .career { padding-bottom: 95px; }
+  .career-feature { min-height: 520px; }
+  .career-feature > div { right: 22px; bottom: 24px; left: 22px; }
+  .career-list article { grid-template-columns: 58px 1fr; padding: 20px; }
   .filter-bar { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; }
   .filter-button { flex: 0 0 auto; }
   .project-case, .project-case.reverse {

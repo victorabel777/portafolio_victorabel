@@ -1,8 +1,9 @@
 {
   "profile": {
     "name": "Víctor Abel Rodríguez Aparicio",
-    "focus": "Desarrollo web · Análisis de datos · IA aplicada",
-    "availability": "Disponible para nuevos proyectos"
+    "focus": "Desarrollo de sistemas web · Análisis de datos · IA aplicada",
+    "availability": "Disponible para proyectos freelance",
+    "location": "Toluca, Estado de México"
   },
   "projects": [
     {
@@ -11,8 +12,7 @@
       "category": "Sistema de inventario",
       "status": "Publicado",
       "progress": 100,
-      "liveUrl": "https://victorabel777.github.io/stockflow-inventario/",
-      "repoUrl": "https://github.com/victorabel777/stockflow-inventario"
+      "liveUrl": "https://victorabel777.github.io/stockflow-inventario/"
     },
     {
       "id": "restaurante",
@@ -20,8 +20,7 @@
       "category": "Restaurante digital",
       "status": "Publicado",
       "progress": 100,
-      "liveUrl": "https://victorabel777.github.io/brasa-olivo-restaurante/",
-      "repoUrl": "https://github.com/victorabel777/brasa-olivo-restaurante"
+      "liveUrl": "https://victorabel777.github.io/brasa-olivo-restaurante/"
     },
     {
       "id": "citas",
@@ -29,8 +28,7 @@
       "category": "Plataforma de citas",
       "status": "Publicado",
       "progress": 100,
-      "liveUrl": "https://victorabel777.github.io/nexo-salud-citas/",
-      "repoUrl": "https://github.com/victorabel777/nexo-salud-citas"
+      "liveUrl": "https://victorabel777.github.io/nexo-salud-citas/"
     },
     {
       "id": "inmobiliaria",
@@ -38,42 +36,82 @@
       "category": "Portal inmobiliario",
       "status": "Publicado",
       "progress": 100,
-      "liveUrl": "https://victorabel777.github.io/lumen-real-estate/",
-      "repoUrl": "https://github.com/victorabel777/lumen-real-estate"
+      "liveUrl": "https://victorabel777.github.io/lumen-real-estate/"
     },
     {
       "id": "tienda",
       "name": "NOVA Store",
-      "category": "Tienda online",
+      "category": "Comercio electrónico",
       "status": "Publicado",
       "progress": 100,
-      "liveUrl": "https://victorabel777.github.io/nova-store/",
-      "repoUrl": "https://github.com/victorabel777/nova-store"
+      "liveUrl": "https://victorabel777.github.io/nova-store/"
+    },
+    {
+      "id": "arquitectura",
+      "name": "Portafolio Cristian Bravo",
+      "category": "Portafolio de arquitectura",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://cristianbravo.kesug.com/?i=1"
     }
   ],
   "skills": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "Laravel",
-    "MySQL",
+    "Python",
+    "Pandas",
+    "NumPy",
+    "SciPy",
+    "Matplotlib",
+    "Seaborn",
+    "Plotly",
+    "Scikit-learn",
     "Power BI",
     "KNIME",
-    "IA generativa",
-    "ChatGPT",
-    "GitHub",
-    "Ciberseguridad"
+    "Excel",
+    "MySQL",
+    "SQL Server",
+    "PostgreSQL",
+    "Azure Data Factory",
+    "Azure Synapse Analytics",
+    "Microsoft Fabric",
+    "Google BigQuery",
+    "PHP",
+    "Java",
+    "JavaScript",
+    "Laravel",
+    "Angular",
+    "Android"
   ],
   "certificates": [
+    {
+      "id": "genai-data-analytics",
+      "name": "GenAI in Data Analytics",
+      "issuer": "Meta · Coursera",
+      "date": "Julio 2026",
+      "area": "Datos",
+      "url": "../assets/certificates/genai-data-analytics-meta.pdf",
+      "preview": "../assets/certificates/previews/genai-data-analytics.webp",
+      "verificationUrl": "https://coursera.org/verify/IV3W1ENKLHE7",
+      "featured": true
+    },
+    {
+      "id": "ai-empathy-ethics",
+      "name": "AI, Empathy & Ethics",
+      "issuer": "UC Santa Cruz · Coursera",
+      "date": "Julio 2026",
+      "area": "IA",
+      "url": "../assets/certificates/ai-empathy-ethics-ucsc.pdf",
+      "preview": "../assets/certificates/previews/ai-empathy-ethics.webp",
+      "verificationUrl": "https://coursera.org/verify/9YU51C310XF1",
+      "featured": true
+    },
     {
       "id": "power-bi",
       "name": "Power BI",
       "issuer": "Santander Open Academy",
       "date": "Julio 2026",
       "area": "Datos",
-      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/power-bi.pdf",
-      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/power-bi.webp",
+      "url": "../assets/certificates/power-bi.pdf",
+      "preview": "../assets/certificates/previews/power-bi.webp",
       "featured": true
     },
     {
@@ -82,17 +120,17 @@
       "issuer": "KNIME",
       "date": "Junio 2026",
       "area": "Datos",
-      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/knime-analytics-platform.pdf",
-      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/knime.webp"
+      "url": "../assets/certificates/knime-analytics-platform.pdf",
+      "preview": "../assets/certificates/previews/knime.webp"
     },
     {
       "id": "ciberseguridad",
       "name": "Fundamentos de ciberseguridad",
-      "issuer": "Santander + IBM",
+      "issuer": "Santander Open Academy · IBM",
       "date": "Junio 2026",
       "area": "Seguridad",
-      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/fundamentos-ciberseguridad.pdf",
-      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/cybersecurity.webp"
+      "url": "../assets/certificates/fundamentos-ciberseguridad.pdf",
+      "preview": "../assets/certificates/previews/cybersecurity.webp"
     },
     {
       "id": "modern-ai",
@@ -100,8 +138,8 @@
       "issuer": "Cisco Networking Academy",
       "date": "Octubre 2025",
       "area": "IA",
-      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/introduction-modern-ai.pdf",
-      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/modern-ai.webp"
+      "url": "../assets/certificates/introduction-modern-ai.pdf",
+      "preview": "../assets/certificates/previews/modern-ai.webp"
     },
     {
       "id": "chatgpt",
@@ -109,9 +147,9 @@
       "issuer": "Santander Open Academy",
       "date": "Julio 2025",
       "area": "IA",
-      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/fundamentos-chatgpt.pdf",
-      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/chatgpt.webp"
+      "url": "../assets/certificates/fundamentos-chatgpt.pdf",
+      "preview": "../assets/certificates/previews/chatgpt.webp"
     }
   ],
-  "updatedAt": "2026-07-19T00:00:00.000Z"
+  "updatedAt": "2026-07-19T03:00:00.000Z"
 }
