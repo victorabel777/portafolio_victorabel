@@ -49,7 +49,7 @@
     {
       "id": "arquitectura",
       "name": "Portafolio Cristian Bravo",
-      "category": "Portafolio de arquitectura",
+      "category": "Portafolios / propaganda",
       "status": "Publicado",
       "progress": 100,
       "liveUrl": "https://cristianbravo.kesug.com/?i=1"
@@ -77,9 +77,25 @@
     "PHP",
     "Java",
     "JavaScript",
+    "TypeScript",
+    "C#",
+    "C++",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "Sass",
     "Laravel",
     "Angular",
-    "Android"
+    "jQuery",
+    "AJAX",
+    "Android",
+    "Firebase",
+    "Git",
+    "GitHub",
+    "Docker",
+    "Postman",
+    "Figma",
+    "Linux"
   ],
   "certificates": [
     {
@@ -151,5 +167,5 @@
       "preview": "../assets/certificates/previews/chatgpt.webp"
     }
   ],
-  "updatedAt": "2026-07-19T03:00:00.000Z"
+  "updatedAt": "2026-07-19T09:00:00.000Z"
 }

@@ -4,6 +4,10 @@
 
 `assets/va-neon-hero-recovered.png` fue creada especialmente para este portafolio mediante generación de imagen de OpenAI. Es una composición original basada en la dirección visual solicitada por Víctor Abel.
 
+## Identidad
+
+`assets/va-brand-icon-v3.png` fue creada especialmente para este portafolio mediante generación de imagen de OpenAI. El monograma original VA se utiliza como icono del sitio y marca de navegación.
+
 ## Fotografías de proyectos
 
 Las fotografías de las galerías se sirven desde [Unsplash](https://unsplash.com/):
