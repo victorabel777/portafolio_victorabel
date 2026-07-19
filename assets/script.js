@@ -46,19 +46,6 @@ const navObserver = new IntersectionObserver(entries => {
 
 sections.forEach(section => navObserver.observe(section));
 
-const playground = document.querySelector('.hero-playground');
-if (playground && matchMedia('(pointer: fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  playground.addEventListener('pointermove', event => {
-    const rect = playground.getBoundingClientRect();
-    const x = (event.clientX - rect.left) / rect.width - 0.5;
-    const y = (event.clientY - rect.top) / rect.height - 0.5;
-    playground.style.transform = `perspective(900px) rotateY(${x * 4}deg) rotateX(${-y * 4}deg)`;
-  });
-  playground.addEventListener('pointerleave', () => {
-    playground.style.transform = 'perspective(900px) rotateY(0deg) rotateX(0deg)';
-  });
-}
-
 async function hydratePublicData() {
   try {
     const response = await fetch('assets/data/portfolio.json', { cache: 'no-store' });
@@ -81,13 +68,6 @@ function escapeText(value) {
   const temporary = document.createElement('span');
   temporary.textContent = String(value);
   return temporary.innerHTML;
-}
-
-if (matchMedia('(pointer: fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  document.addEventListener('pointermove', event => {
-    document.documentElement.style.setProperty('--pointer-x', `${event.clientX}px`);
-    document.documentElement.style.setProperty('--pointer-y', `${event.clientY}px`);
-  }, { passive: true });
 }
 
 hydratePublicData();
