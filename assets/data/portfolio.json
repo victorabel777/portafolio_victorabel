@@ -1,0 +1,117 @@
+{
+  "profile": {
+    "name": "Víctor Abel Rodríguez Aparicio",
+    "focus": "Desarrollo web · Análisis de datos · IA aplicada",
+    "availability": "Disponible para nuevos proyectos"
+  },
+  "projects": [
+    {
+      "id": "inventario",
+      "name": "StockFlow",
+      "category": "Sistema de inventario",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://victorabel777.github.io/stockflow-inventario/",
+      "repoUrl": "https://github.com/victorabel777/stockflow-inventario"
+    },
+    {
+      "id": "restaurante",
+      "name": "Brasa & Olivo",
+      "category": "Restaurante digital",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://victorabel777.github.io/brasa-olivo-restaurante/",
+      "repoUrl": "https://github.com/victorabel777/brasa-olivo-restaurante"
+    },
+    {
+      "id": "citas",
+      "name": "Nexo Salud",
+      "category": "Plataforma de citas",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://victorabel777.github.io/nexo-salud-citas/",
+      "repoUrl": "https://github.com/victorabel777/nexo-salud-citas"
+    },
+    {
+      "id": "inmobiliaria",
+      "name": "Lumen Real Estate",
+      "category": "Portal inmobiliario",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://victorabel777.github.io/lumen-real-estate/",
+      "repoUrl": "https://github.com/victorabel777/lumen-real-estate"
+    },
+    {
+      "id": "tienda",
+      "name": "NOVA Store",
+      "category": "Tienda online",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://victorabel777.github.io/nova-store/",
+      "repoUrl": "https://github.com/victorabel777/nova-store"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "Laravel",
+    "MySQL",
+    "Power BI",
+    "KNIME",
+    "IA generativa",
+    "ChatGPT",
+    "GitHub",
+    "Ciberseguridad"
+  ],
+  "certificates": [
+    {
+      "id": "power-bi",
+      "name": "Power BI",
+      "issuer": "Santander Open Academy",
+      "date": "Julio 2026",
+      "area": "Datos",
+      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/power-bi.pdf",
+      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/power-bi.webp",
+      "featured": true
+    },
+    {
+      "id": "knime",
+      "name": "KNIME Analytics Platform L1",
+      "issuer": "KNIME",
+      "date": "Junio 2026",
+      "area": "Datos",
+      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/knime-analytics-platform.pdf",
+      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/knime.webp"
+    },
+    {
+      "id": "ciberseguridad",
+      "name": "Fundamentos de ciberseguridad",
+      "issuer": "Santander + IBM",
+      "date": "Junio 2026",
+      "area": "Seguridad",
+      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/fundamentos-ciberseguridad.pdf",
+      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/cybersecurity.webp"
+    },
+    {
+      "id": "modern-ai",
+      "name": "Introduction to Modern AI",
+      "issuer": "Cisco Networking Academy",
+      "date": "Octubre 2025",
+      "area": "IA",
+      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/introduction-modern-ai.pdf",
+      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/modern-ai.webp"
+    },
+    {
+      "id": "chatgpt",
+      "name": "Fundamentos de ChatGPT",
+      "issuer": "Santander Open Academy",
+      "date": "Julio 2025",
+      "area": "IA",
+      "url": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/fundamentos-chatgpt.pdf",
+      "preview": "https://victorabel777.github.io/portafolio_victorabel/assets/certificates/previews/chatgpt.webp"
+    }
+  ],
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

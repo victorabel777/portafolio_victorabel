@@ -34,12 +34,12 @@
     </button>
     <nav class="main-menu" id="main-menu" aria-label="Navegación principal">
       <a href="#perfil">Perfil</a>
-      <a href="#experiencias">Experiencias</a>
+      <a href="#proyectos">Proyectos</a>
       <a href="#habilidades">Habilidades</a>
-      <a href="#certificaciones">Certificados</a>
+      <a href="analisis-datos/">Análisis de datos</a>
       <a href="#contacto">Contacto</a>
     </nav>
-    <a class="header-cta" href="#experiencias">Explorar proyectos <span>↗</span></a>
+    <a class="header-cta" href="#proyectos">Explorar proyectos <span>↗</span></a>
   </header>
 
   <main id="contenido">
@@ -50,11 +50,11 @@
         <h1 id="hero-title">Construyo experiencias digitales que <span class="gradient-text">sí dan ganas de usar.</span></h1>
         <p class="hero-lead">Soy Víctor Abel Rodríguez Aparicio. Combino desarrollo web, visualización de datos e inteligencia artificial para convertir ideas en sitios, sistemas y paneles claros, útiles y con personalidad.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#experiencias">Entrar a las experiencias <span>→</span></a>
+          <a class="button button-primary" href="#proyectos">Entrar a las experiencias <span>→</span></a>
           <a class="button button-ghost" href="#contacto">Crear algo juntos</a>
         </div>
         <div class="hero-proof" aria-label="Resumen profesional">
-          <div><strong>05</strong><span>demos completas</span></div>
+          <div><strong>05</strong><span>sitios publicados</span></div>
           <div><strong>05</strong><span>credenciales</span></div>
           <div><strong>100%</strong><span>responsive</span></div>
         </div>
@@ -125,17 +125,17 @@
       </div>
     </section>
 
-    <section class="experiences section-shell" id="experiencias" aria-labelledby="experiences-title">
+    <section class="experiences section-shell" id="proyectos" aria-labelledby="experiences-title">
       <div class="section-heading split reveal">
         <div>
-          <p class="eyebrow">02 · Experiencias interactivas</p>
-          <h2 id="experiences-title">Cinco negocios. <span>Cinco mundos distintos.</span></h2>
+          <p class="eyebrow">02 · Repositorios independientes</p>
+          <h2 id="experiences-title">Cinco negocios. <span>Cinco mundos realmente distintos.</span></h2>
         </div>
-        <p>No son tarjetas de muestra: cada opción abre una experiencia completa con navegación, filtros y acciones funcionales.</p>
+        <p>Cada opción abre un sitio completo, publicado desde su propio repositorio de GitHub y con una identidad visual profesional diferente.</p>
       </div>
 
       <div class="project-launcher" role="list">
-        <a class="project-card inventory reveal" href="demos/inventario/" role="listitem">
+        <a class="project-card inventory reveal" data-project-id="inventario" href="https://victorabel777.github.io/stockflow-inventario/" target="_blank" rel="noopener" role="listitem">
           <div class="project-top"><span class="project-index">01</span><span class="project-arrow">↗</span></div>
           <div class="project-visual inventory-visual" aria-hidden="true">
             <div class="mini-sidebar"><i></i><i></i><i></i><i></i></div>
@@ -145,10 +145,11 @@
             <p>Operaciones · SaaS</p>
             <h3>StockFlow</h3>
             <span>Inventario, movimientos y alertas en un dashboard profesional.</span>
+            <small>Repositorio independiente · Abrir sitio</small>
           </div>
         </a>
 
-        <a class="project-card restaurant reveal" href="demos/restaurante/" role="listitem">
+        <a class="project-card restaurant reveal" data-project-id="restaurante" href="https://victorabel777.github.io/brasa-olivo-restaurante/" target="_blank" rel="noopener" role="listitem">
           <div class="project-top"><span class="project-index">02</span><span class="project-arrow">↗</span></div>
           <div class="project-visual restaurant-visual" aria-hidden="true">
             <div class="plate">🍝</div><span>BRASA</span>
@@ -157,10 +158,11 @@
             <p>Gastronomía · Reservas</p>
             <h3>Brasa &amp; Olivo</h3>
             <span>Menú editorial, carrito y reservaciones con una estética cálida.</span>
+            <small>Repositorio independiente · Abrir sitio</small>
           </div>
         </a>
 
-        <a class="project-card appointments reveal" href="demos/citas/" role="listitem">
+        <a class="project-card appointments reveal" data-project-id="citas" href="https://victorabel777.github.io/nexo-salud-citas/" target="_blank" rel="noopener" role="listitem">
           <div class="project-top"><span class="project-index">03</span><span class="project-arrow">↗</span></div>
           <div class="project-visual appointments-visual" aria-hidden="true">
             <div class="calendar-mini"><b>18</b><i></i><i></i><i></i></div><span>Agenda simple</span>
@@ -169,10 +171,11 @@
             <p>Salud · Agenda</p>
             <h3>Nexo Salud</h3>
             <span>Selección de servicio, fecha, horario y confirmación de cita.</span>
+            <small>Repositorio independiente · Abrir sitio</small>
           </div>
         </a>
 
-        <a class="project-card realestate reveal" href="demos/inmobiliaria/" role="listitem">
+        <a class="project-card realestate reveal" data-project-id="inmobiliaria" href="https://victorabel777.github.io/lumen-real-estate/" target="_blank" rel="noopener" role="listitem">
           <div class="project-top"><span class="project-index">04</span><span class="project-arrow">↗</span></div>
           <div class="project-visual realestate-visual" aria-hidden="true">
             <div class="building"><i></i><i></i><i></i><i></i></div><span>LUMEN</span>
@@ -181,10 +184,11 @@
             <p>Inmobiliaria · Leads</p>
             <h3>Lumen Real Estate</h3>
             <span>Propiedades premium, filtros, favoritos y fichas detalladas.</span>
+            <small>Repositorio independiente · Abrir sitio</small>
           </div>
         </a>
 
-        <a class="project-card store reveal" href="demos/tienda/" role="listitem">
+        <a class="project-card store reveal" data-project-id="tienda" href="https://victorabel777.github.io/nova-store/" target="_blank" rel="noopener" role="listitem">
           <div class="project-top"><span class="project-index">05</span><span class="project-arrow">↗</span></div>
           <div class="project-visual store-visual" aria-hidden="true">
             <div class="product-box">N</div><div class="product-lines"><i></i><i></i><i></i></div>
@@ -193,8 +197,13 @@
             <p>E-commerce · Catálogo</p>
             <h3>NOVA Store</h3>
             <span>Tienda colorida con categorías, carrito y productos interactivos.</span>
+            <small>Repositorio independiente · Abrir sitio</small>
           </div>
         </a>
+      </div>
+      <div class="github-strip reveal">
+        <div><span>⌘</span><p><small>También viven en mi perfil</small><strong>Explora el código y cada repositorio en GitHub</strong></p></div>
+        <a class="button button-ghost" href="https://github.com/victorabel777?tab=repositories" target="_blank" rel="noopener">Ver repositorios ↗</a>
       </div>
     </section>
 
@@ -217,11 +226,7 @@
           <h3>Análisis de datos</h3>
           <p>Limpieza, transformación y visualización para comunicar hallazgos y facilitar decisiones.</p>
           <div class="skill-pills"><span>Power BI</span><span>KNIME</span><span>Dashboards</span><span>Flujos ETL</span><span>Storytelling</span></div>
-          <div class="data-cert-list" aria-label="Certificados de análisis de datos">
-            <p>Credenciales relacionadas</p>
-            <a href="assets/certificates/power-bi.pdf"><span>Power BI · Santander</span><strong>2026 ↗</strong></a>
-            <a href="assets/certificates/knime-analytics-platform.pdf"><span>KNIME Analytics Platform L1</span><strong>2026 ↗</strong></a>
-          </div>
+          <a class="data-portal-link" href="analisis-datos/"><span><small>Área independiente</small><strong>Entrar al laboratorio de datos</strong></span><b>↗</b></a>
         </article>
         <article class="skill-card skill-ai reveal">
           <div class="skill-icon">✦</div>
@@ -240,54 +245,10 @@
       </div>
     </section>
 
-    <section class="certificates section-shell" id="certificaciones" aria-labelledby="certificates-title">
-      <div class="section-heading split reveal">
-        <div>
-          <p class="eyebrow">04 · Formación comprobable</p>
-          <h2 id="certificates-title">Aprender, aplicar, <span>volver a aprender.</span></h2>
-        </div>
-        <p>Cada credencial abre su documento en PDF. Power BI es la incorporación más reciente.</p>
-      </div>
-      <div class="certificate-list">
-        <a class="certificate-row featured reveal" href="assets/certificates/power-bi.pdf">
-          <span class="certificate-number">01</span>
-          <span class="certificate-thumb"><img src="assets/certificates/previews/power-bi.webp" alt="" loading="lazy"></span>
-          <span class="certificate-info"><small>Santander Open Academy · 8 horas</small><strong>Power BI</strong></span>
-          <span class="certificate-date">Julio 2026</span>
-          <span class="certificate-badge">NUEVO</span>
-          <span class="certificate-open">↗</span>
-        </a>
-        <a class="certificate-row reveal" href="assets/certificates/knime-analytics-platform.pdf">
-          <span class="certificate-number">02</span>
-          <span class="certificate-thumb"><img src="assets/certificates/previews/knime.webp" alt="" loading="lazy"></span>
-          <span class="certificate-info"><small>KNIME · Credencial L1</small><strong>KNIME Analytics Platform</strong></span>
-          <span class="certificate-date">Junio 2026</span><span class="certificate-open">↗</span>
-        </a>
-        <a class="certificate-row reveal" href="assets/certificates/fundamentos-ciberseguridad.pdf">
-          <span class="certificate-number">03</span>
-          <span class="certificate-thumb"><img src="assets/certificates/previews/cybersecurity.webp" alt="" loading="lazy"></span>
-          <span class="certificate-info"><small>Santander + IBM</small><strong>Fundamentos de ciberseguridad</strong></span>
-          <span class="certificate-date">Junio 2026</span><span class="certificate-open">↗</span>
-        </a>
-        <a class="certificate-row reveal" href="assets/certificates/introduction-modern-ai.pdf">
-          <span class="certificate-number">04</span>
-          <span class="certificate-thumb"><img src="assets/certificates/previews/modern-ai.webp" alt="" loading="lazy"></span>
-          <span class="certificate-info"><small>Cisco Networking Academy</small><strong>Introduction to Modern AI</strong></span>
-          <span class="certificate-date">Octubre 2025</span><span class="certificate-open">↗</span>
-        </a>
-        <a class="certificate-row reveal" href="assets/certificates/fundamentos-chatgpt.pdf">
-          <span class="certificate-number">05</span>
-          <span class="certificate-thumb"><img src="assets/certificates/previews/chatgpt.webp" alt="" loading="lazy"></span>
-          <span class="certificate-info"><small>Santander Open Academy · 8 horas</small><strong>Fundamentos de ChatGPT</strong></span>
-          <span class="certificate-date">Julio 2025</span><span class="certificate-open">↗</span>
-        </a>
-      </div>
-    </section>
-
     <section class="contact section-shell" id="contacto" aria-labelledby="contact-title">
       <div class="contact-card reveal">
         <div class="contact-orb" aria-hidden="true">✦</div>
-        <p class="eyebrow">05 · Contacto</p>
+        <p class="eyebrow">04 · Contacto</p>
         <h2 id="contact-title">¿Tienes una idea? <span>Vamos a darle forma.</span></h2>
         <p>Cuéntame qué necesita tu negocio o proyecto y revisamos una solución clara, realista y con personalidad.</p>
         <div class="contact-actions">
