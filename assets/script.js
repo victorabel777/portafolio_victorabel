@@ -1,7 +1,10 @@
 const menuButton = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.main-menu');
-const menuLinks = [...document.querySelectorAll('.main-menu a')];
+const menuLinks = [...document.querySelectorAll('.main-menu a[href^="#"]')];
+const header = document.querySelector('.site-header');
 const sections = [...document.querySelectorAll('main section[id]')];
+const projectCases = [...document.querySelectorAll('.project-case')];
+const filterButtons = [...document.querySelectorAll('.filter-button')];
 
 function closeMenu() {
   menu?.classList.remove('open');
@@ -21,17 +24,23 @@ document.addEventListener('keydown', event => {
   if (event.key === 'Escape') closeMenu();
 });
 
+function updateHeader() {
+  header?.classList.toggle('scrolled', window.scrollY > 40);
+}
+
+window.addEventListener('scroll', updateHeader, { passive: true });
+updateHeader();
+
 const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      revealObserver.unobserve(entry.target);
-    }
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('visible');
+    revealObserver.unobserve(entry.target);
   });
-}, { threshold: 0.12 });
+}, { threshold: 0.1 });
 
 document.querySelectorAll('.reveal').forEach((element, index) => {
-  element.style.transitionDelay = `${Math.min(index % 4, 3) * 70}ms`;
+  element.style.transitionDelay = `${Math.min(index % 3, 2) * 65}ms`;
   revealObserver.observe(element);
 });
 
@@ -42,9 +51,20 @@ const navObserver = new IntersectionObserver(entries => {
       link.classList.toggle('active', link.getAttribute('href') === `#${entry.target.id}`);
     });
   });
-}, { rootMargin: '-35% 0px -55%', threshold: 0 });
+}, { rootMargin: '-34% 0px -58%', threshold: 0 });
 
 sections.forEach(section => navObserver.observe(section));
+
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const filter = button.dataset.filter;
+    filterButtons.forEach(item => item.classList.toggle('active', item === button));
+    projectCases.forEach(project => {
+      const categories = project.dataset.category?.split(' ') || [];
+      project.hidden = filter !== 'all' && !categories.includes(filter);
+    });
+  });
+});
 
 async function hydratePublicData() {
   try {
@@ -52,15 +72,18 @@ async function hydratePublicData() {
     if (!response.ok) return;
     const portfolio = await response.json();
     const availability = document.querySelector('.status-pill');
+
     if (availability && portfolio.profile?.availability) {
       availability.innerHTML = `<span></span> ${escapeText(portfolio.profile.availability)}`;
     }
+
     (portfolio.projects || []).forEach(project => {
       const card = document.querySelector(`[data-project-id="${CSS.escape(project.id)}"]`);
-      if (card && project.liveUrl) card.href = project.liveUrl;
+      const liveLink = card?.querySelector('.case-actions .button');
+      if (liveLink && project.liveUrl) liveLink.href = project.liveUrl;
     });
   } catch {
-    // El contenido base permanece disponible si el archivo de datos no carga.
+    // El contenido base sigue disponible si el archivo de datos no carga.
   }
 }
 
