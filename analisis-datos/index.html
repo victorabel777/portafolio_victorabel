@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Área de análisis de datos de Víctor Abel Rodríguez: Power BI, KNIME, visualización, procesos y certificados.">
+  <meta name="theme-color" content="#07111f">
+  <title>Análisis de datos | Víctor Abel</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="mesh mesh-a" aria-hidden="true"></div>
+  <div class="mesh mesh-b" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="../"><span>VA</span><div><strong>Víctor Abel</strong><small>DATA LAB / 2026</small></div></a>
+    <nav aria-label="Navegación de análisis">
+      <a href="#metodo">Método</a>
+      <a href="#laboratorio">Laboratorio</a>
+      <a href="#certificados">Certificados</a>
+    </nav>
+    <a class="back-link" href="../"><span>←</span> Portafolio</a>
+  </header>
+
+  <main id="contenido">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <div class="live-pill"><i></i> ÁREA PROFESIONAL</div>
+        <p class="kicker">ANÁLISIS DE DATOS · VISUALIZACIÓN · AUTOMATIZACIÓN</p>
+        <h1>De datos dispersos a <span>decisiones claras.</span></h1>
+        <p class="lead">Transformo información en historias visuales fáciles de explorar. Mi enfoque combina limpieza, análisis, dashboards y comunicación para encontrar lo que realmente importa.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#certificados">Ver credenciales <span>↓</span></a>
+          <a class="button ghost" href="#laboratorio">Probar el laboratorio</a>
+        </div>
+        <div class="hero-tags"><span>Power BI</span><span>KNIME</span><span>ETL</span><span>Storytelling</span></div>
+      </div>
+
+      <div class="data-orbit reveal" aria-label="Diagrama visual del proceso de datos">
+        <div class="orbit-grid"></div>
+        <div class="node node-source"><i>01</i><strong>Fuentes</strong><small>Datos crudos</small></div>
+        <div class="node node-clean"><i>02</i><strong>Preparar</strong><small>Limpiar + unir</small></div>
+        <div class="node node-insight"><i>03</i><strong>Entender</strong><small>Patrones</small></div>
+        <div class="core">
+          <div class="core-rings"><i></i><i></i><i></i></div>
+          <span>▦</span><strong>INSIGHT</strong><small>listo para decidir</small>
+        </div>
+        <svg class="connections" viewBox="0 0 620 520" aria-hidden="true">
+          <path d="M95 122 C210 90 210 250 305 260"></path>
+          <path d="M520 98 C430 130 420 220 315 255"></path>
+          <path d="M520 415 C430 390 405 300 320 270"></path>
+        </svg>
+        <div class="signal signal-one"></div><div class="signal signal-two"></div><div class="signal signal-three"></div>
+      </div>
+    </section>
+
+    <section class="metrics shell reveal" aria-label="Resumen de formación">
+      <article><small>Herramientas clave</small><strong data-counter="2">02</strong><p>Power BI + KNIME</p></article>
+      <article><small>Credenciales</small><strong id="credentialMetric">05</strong><p>formación comprobable</p></article>
+      <article><small>Flujo</small><strong>360°</strong><p>preparar, analizar, contar</p></article>
+      <article class="metric-accent"><small>Objetivo</small><strong>CLARO</strong><p>menos ruido, mejores decisiones</p></article>
+    </section>
+
+    <section class="method shell" id="metodo">
+      <div class="section-title reveal">
+        <p class="kicker">01 / CÓMO TRABAJO</p>
+        <h2>Un proceso visible, <span>sin caja negra.</span></h2>
+        <p>La herramienta cambia; la lógica permanece: entender la pregunta, cuidar la calidad y presentar una respuesta accionable.</p>
+      </div>
+      <div class="method-grid">
+        <article class="method-card reveal"><span>01</span><div class="method-icon source-icon">⌁</div><p>Pregunta</p><h3>Definir el objetivo</h3><small>Qué decisión se necesita tomar y qué evidencia ayudaría.</small></article>
+        <article class="method-card reveal"><span>02</span><div class="method-icon clean-icon">◇</div><p>Preparación</p><h3>Ordenar los datos</h3><small>Revisar calidad, transformar, unir y documentar los pasos.</small></article>
+        <article class="method-card reveal"><span>03</span><div class="method-icon explore-icon">⌗</div><p>Exploración</p><h3>Encontrar patrones</h3><small>Comparar periodos, segmentos, anomalías y relaciones útiles.</small></article>
+        <article class="method-card reveal"><span>04</span><div class="method-icon tell-icon">↗</div><p>Comunicación</p><h3>Contar el hallazgo</h3><small>Diseñar visuales que expliquen qué pasó y qué sigue.</small></article>
+      </div>
+    </section>
+
+    <section class="lab shell" id="laboratorio">
+      <div class="section-title reveal">
+        <p class="kicker">02 / LABORATORIO INTERACTIVO</p>
+        <h2>Explora una señal, <span>cambia la lectura.</span></h2>
+        <p>Selecciona una métrica para ver cómo una misma operación cuenta historias diferentes.</p>
+      </div>
+      <div class="dashboard reveal">
+        <aside class="dash-sidebar">
+          <div class="dash-logo">VA<span>data</span></div>
+          <p>VISTA</p>
+          <button class="metric-tab active" data-metric="ventas"><i></i>Ventas</button>
+          <button class="metric-tab" data-metric="clientes"><i></i>Clientes</button>
+          <button class="metric-tab" data-metric="conversion"><i></i>Conversión</button>
+          <div class="dash-note"><span>✦</span><p>Demo interactiva<br><small>Datos ilustrativos</small></p></div>
+        </aside>
+        <div class="dash-main">
+          <header><div><small>RENDIMIENTO / ENE—JUN</small><h3 id="chartTitle">Ventas mensuales</h3></div><span class="updated">● Actualizado</span></header>
+          <div class="dash-kpis">
+            <article><small id="primaryLabel">TOTAL</small><strong id="primaryValue">$725k</strong><em id="primaryDelta">↗ 18.4%</em></article>
+            <article><small>PROMEDIO</small><strong id="averageValue">$121k</strong><em>por mes</em></article>
+            <article><small>MEJOR MES</small><strong id="bestMonth">Jun</strong><em id="bestValue">$156k</em></article>
+          </div>
+          <div class="chart-wrap">
+            <div class="chart-y"><span>160</span><span>120</span><span>80</span><span>40</span><span>0</span></div>
+            <div class="chart" id="interactiveChart" aria-label="Gráfica de barras interactiva"></div>
+          </div>
+          <div class="insight-banner"><span>INSIGHT</span><p id="chartInsight">La tendencia mejora de forma sostenida y junio concentra el valor más alto del periodo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="toolbox shell">
+      <div class="section-title reveal">
+        <p class="kicker">03 / CAJA DE HERRAMIENTAS</p>
+        <h2>Técnica para analizar. <span>Diseño para explicar.</span></h2>
+      </div>
+      <div class="tool-grid">
+        <article class="tool-card power reveal"><div class="tool-head"><span>P</span><i>01</i></div><h3>Power BI</h3><p>Dashboards, modelado, indicadores y narrativas visuales para seguimiento.</p><div><small>VISUALIZACIÓN</small><small>DASHBOARDS</small><small>KPIs</small></div></article>
+        <article class="tool-card knime reveal"><div class="tool-head"><span>K</span><i>02</i></div><h3>KNIME</h3><p>Flujos visuales para preparación, transformación y análisis reproducible.</p><div><small>ETL</small><small>WORKFLOWS</small><small>AUTOMATIZACIÓN</small></div></article>
+        <article class="tool-card thinking reveal"><div class="tool-head"><span>?</span><i>03</i></div><h3>Pensamiento analítico</h3><p>Preguntas claras, revisión de calidad, contexto y comunicación responsable.</p><div><small>CALIDAD</small><small>CONTEXTO</small><small>STORYTELLING</small></div></article>
+      </div>
+    </section>
+
+    <section class="credentials shell" id="certificados">
+      <div class="credentials-head reveal">
+        <div class="section-title">
+          <p class="kicker">04 / FORMACIÓN COMPROBABLE</p>
+          <h2>Credenciales en <span>modo mosaico.</span></h2>
+          <p>Cada pieza abre el documento original en PDF. Usa los filtros para recorrer las áreas.</p>
+        </div>
+        <div class="credential-controls">
+          <label><span class="sr-only">Buscar certificado</span><input id="certificateSearch" type="search" placeholder="Buscar credencial…"></label>
+          <div class="filters" role="group" aria-label="Filtrar certificados">
+            <button class="filter active" data-filter="Todos">Todos</button>
+            <button class="filter" data-filter="Datos">Datos</button>
+            <button class="filter" data-filter="IA">IA</button>
+            <button class="filter" data-filter="Seguridad">Seguridad</button>
+          </div>
+        </div>
+      </div>
+      <div class="certificate-mosaic" id="certificateMosaic" aria-live="polite">
+        <p class="loading">Cargando credenciales<span>•••</span></p>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No encontré certificados con ese filtro.</p>
+    </section>
+
+    <section class="closing shell reveal">
+      <div><p class="kicker">¿HAY DATOS QUE NECESITAN ORDEN?</p><h2>Convirtámoslos en una historia que sí se entienda.</h2></div>
+      <a class="button primary" href="../#contacto">Hablemos <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <a class="brand" href="../"><span>VA</span><div><strong>Víctor Abel</strong><small>WEB · DATOS · IA</small></div></a>
+    <p>Área de análisis de datos · 2026</p>
+    <a href="../">Volver al portafolio ↑</a>
+  </footer>
+</body>
+</html>

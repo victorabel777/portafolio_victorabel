@@ -58,3 +58,36 @@ if (playground && matchMedia('(pointer: fine)').matches && !matchMedia('(prefers
     playground.style.transform = 'perspective(900px) rotateY(0deg) rotateX(0deg)';
   });
 }
+
+async function hydratePublicData() {
+  try {
+    const response = await fetch('assets/data/portfolio.json', { cache: 'no-store' });
+    if (!response.ok) return;
+    const portfolio = await response.json();
+    const availability = document.querySelector('.status-pill');
+    if (availability && portfolio.profile?.availability) {
+      availability.innerHTML = `<span></span> ${escapeText(portfolio.profile.availability)}`;
+    }
+    (portfolio.projects || []).forEach(project => {
+      const card = document.querySelector(`[data-project-id="${CSS.escape(project.id)}"]`);
+      if (card && project.liveUrl) card.href = project.liveUrl;
+    });
+  } catch {
+    // El contenido base permanece disponible si el archivo de datos no carga.
+  }
+}
+
+function escapeText(value) {
+  const temporary = document.createElement('span');
+  temporary.textContent = String(value);
+  return temporary.innerHTML;
+}
+
+if (matchMedia('(pointer: fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.addEventListener('pointermove', event => {
+    document.documentElement.style.setProperty('--pointer-x', `${event.clientX}px`);
+    document.documentElement.style.setProperty('--pointer-y', `${event.clientY}px`);
+  }, { passive: true });
+}
+
+hydratePublicData();
