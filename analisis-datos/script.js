@@ -118,12 +118,5 @@ document.querySelectorAll('.reveal').forEach((element, index) => {
   observer.observe(element);
 });
 
-if (matchMedia('(pointer:fine)').matches && !matchMedia('(prefers-reduced-motion:reduce)').matches) {
-  document.addEventListener('pointermove', event => {
-    document.documentElement.style.setProperty('--x', `${event.clientX}px`);
-    document.documentElement.style.setProperty('--y', `${event.clientY}px`);
-  }, { passive: true });
-}
-
 renderChart();
 loadPortfolio();
