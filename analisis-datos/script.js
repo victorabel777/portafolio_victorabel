@@ -233,7 +233,7 @@ function renderCertificates() {
   document.querySelector('#emptyState').hidden = filtered.length > 0;
   container.innerHTML = filtered.map(certificate => {
     const verification = certificate.verificationUrl
-      ? `<a class="secondary-link" href="${escapeHtml(safeUrl(certificate.verificationUrl))}" target="_blank" rel="noopener">Verificar ↗</a>`
+      ? `<a class="secondary-link" href="${escapeHtml(safeUrl(certificate.verificationUrl))}" target="_blank" rel="noopener"><i class="bi bi-patch-check" aria-hidden="true"></i>Verificar</a>`
       : '';
     const documentLabel = certificate.url.toLocaleLowerCase('es').endsWith('.pdf') ? 'Abrir PDF' : 'Ver insignia';
     const cardClass = certificate.id === 'fundamentos-ia-generativa' ? ' certificate-card-badge' : '';
@@ -245,7 +245,7 @@ function renderCertificates() {
           <h3>${escapeHtml(certificate.name)}</h3>
           <p>${escapeHtml(certificate.issuer)}</p>
           <div class="certificate-actions">
-            <a href="${escapeHtml(safeUrl(certificate.url))}" target="_blank" rel="noopener">${documentLabel} ↗</a>
+            <a href="${escapeHtml(safeUrl(certificate.url))}" target="_blank" rel="noopener"><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>${documentLabel}</a>
             ${verification}
           </div>
         </div>

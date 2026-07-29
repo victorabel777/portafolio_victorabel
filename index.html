@@ -17,6 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="assets/script.js" defer></script>
 </head>
@@ -33,14 +34,15 @@
       <span></span><span></span><span></span><b class="sr-only">Abrir menú</b>
     </button>
     <nav class="main-menu" id="main-menu" aria-label="Navegación principal">
-      <a href="#perfil">Perfil</a>
-      <a href="#herramientas">Herramientas</a>
-      <a href="#telecomunicaciones">Telecom</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#datos">Datos</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#perfil"><i class="bi bi-person" aria-hidden="true"></i>Perfil</a>
+      <a href="#herramientas"><i class="bi bi-grid" aria-hidden="true"></i>Herramientas</a>
+      <a href="#telecomunicaciones"><i class="bi bi-router" aria-hidden="true"></i>Telecom</a>
+      <a href="#proyectos"><i class="bi bi-window-stack" aria-hidden="true"></i>Proyectos</a>
+      <a href="#datos"><i class="bi bi-bar-chart-line" aria-hidden="true"></i>Datos</a>
+      <a href="analisis-datos/#certificados"><i class="bi bi-patch-check" aria-hidden="true"></i>Certificados</a>
+      <a href="#contacto"><i class="bi bi-chat-dots" aria-hidden="true"></i>Contacto</a>
     </nav>
-    <a class="header-cta" href="#proyectos">Ver experiencias <span>↗</span></a>
+    <a class="header-cta" href="#proyectos">Ver experiencias <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
   </header>
 
   <main id="contenido">
@@ -55,16 +57,16 @@
         <p class="hero-disciplines"><b>WEB</b><i>•</i><b>DATOS</b><i>•</i><b>REDES</b><i>•</i><b>IA</b></p>
         <p class="hero-lead">Desarrollo sistemas web y soluciones de datos, además de contar con formación en redes, conectividad y telecomunicaciones. Trabajo con PHP, MySQL, Java, Python, Power BI y Cisco Packet Tracer.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#proyectos">Explorar proyectos <span>↓</span></a>
-          <a class="button button-glass" href="analisis-datos/">Laboratorio de datos <span>↗</span></a>
-          <a class="button button-glass" href="assets/cv-victor-abel-rodriguez-aparicio.pdf" target="_blank" rel="noopener">CV español <span>↗</span></a>
-          <a class="button button-glass" href="assets/cv-victor-abel-rodriguez-aparicio-en.pdf" target="_blank" rel="noopener" lang="en">English CV <span>↗</span></a>
+          <a class="button button-primary" href="#proyectos"><i class="bi bi-compass" aria-hidden="true"></i>Explorar proyectos <span><i class="bi bi-arrow-down" aria-hidden="true"></i></span></a>
+          <a class="button button-glass" href="analisis-datos/"><i class="bi bi-graph-up-arrow" aria-hidden="true"></i>Laboratorio de datos <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+          <a class="button button-glass" href="assets/cv-victor-abel-rodriguez-aparicio.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-person" aria-hidden="true"></i>CV en español <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+          <a class="button button-glass" href="assets/cv-victor-abel-rodriguez-aparicio-en.pdf" target="_blank" rel="noopener" lang="en"><i class="bi bi-translate" aria-hidden="true"></i>CV in English <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
         </div>
       </div>
       <div class="hero-index" aria-label="Resumen del portafolio">
-        <div><strong>07</strong><span>Proyectos en línea</span></div>
-        <div><strong>07</strong><span>Áreas de trabajo</span></div>
-        <div><strong>10</strong><span>Credenciales</span></div>
+        <div><i class="bi bi-window-stack" aria-hidden="true"></i><strong>7</strong><span>Proyectos publicados</span></div>
+        <div><i class="bi bi-diagram-3" aria-hidden="true"></i><strong>7</strong><span>Áreas profesionales</span></div>
+        <div><i class="bi bi-patch-check" aria-hidden="true"></i><strong>10</strong><span>Credenciales verificables</span></div>
       </div>
       <a class="scroll-cue" href="#indice"><span></span> DESLIZA PARA EXPLORAR</a>
     </section>
@@ -75,19 +77,19 @@
         <h2 id="index-title">Todo en su lugar.<br><span>Todo listo para abrir.</span></h2>
       </div>
       <nav class="chapter-list reveal" aria-label="Índice de capítulos">
-        <a href="#perfil"><strong>Perfil</strong><small>Enfoque y forma de trabajo</small><b>↘</b></a>
-        <a href="#trayectoria"><strong>Trayectoria</strong><small>Experiencia y formación</small><b>↘</b></a>
-        <a href="#herramientas"><strong>Herramientas</strong><small>Tecnologías y metodología</small><b>↘</b></a>
-        <a href="#telecomunicaciones"><strong>Telecomunicaciones</strong><small>Redes, señales y conectividad</small><b>↘</b></a>
-        <a href="#proyectos"><strong>Experiencias</strong><small>Siete proyectos publicados</small><b>↘</b></a>
-        <a href="#datos"><strong>Datos e IA</strong><small>Laboratorio y certificados</small><b>↘</b></a>
-        <a href="#contacto"><strong>Contacto</strong><small>Construyamos algo</small><b>↘</b></a>
+        <a href="#perfil"><i class="chapter-icon bi bi-person" aria-hidden="true"></i><strong>Perfil</strong><small>Enfoque y forma de trabajo</small><b>↘</b></a>
+        <a href="#trayectoria"><i class="chapter-icon bi bi-briefcase" aria-hidden="true"></i><strong>Trayectoria</strong><small>Experiencia y formación</small><b>↘</b></a>
+        <a href="#herramientas"><i class="chapter-icon bi bi-tools" aria-hidden="true"></i><strong>Herramientas</strong><small>Tecnologías y metodología</small><b>↘</b></a>
+        <a href="#telecomunicaciones"><i class="chapter-icon bi bi-router" aria-hidden="true"></i><strong>Telecomunicaciones</strong><small>Redes, señales y conectividad</small><b>↘</b></a>
+        <a href="#proyectos"><i class="chapter-icon bi bi-window-stack" aria-hidden="true"></i><strong>Experiencias</strong><small>Siete proyectos publicados</small><b>↘</b></a>
+        <a href="#datos"><i class="chapter-icon bi bi-bar-chart-line" aria-hidden="true"></i><strong>Datos e IA</strong><small>Laboratorio y certificados</small><b>↘</b></a>
+        <a href="#contacto"><i class="chapter-icon bi bi-chat-dots" aria-hidden="true"></i><strong>Contacto</strong><small>Construyamos algo</small><b>↘</b></a>
       </nav>
     </section>
 
     <section class="profile section-shell" id="perfil" aria-labelledby="profile-title">
       <div class="section-intro reveal">
-        <p class="section-label"><span aria-hidden="true">◎</span><b>PERFIL</b></p>
+        <p class="section-label"><span aria-hidden="true"><i class="bi bi-person"></i></span><b>PERFIL</b></p>
         <h2 id="profile-title">Tecnología que primero se entiende y luego <span>se recuerda.</span></h2>
       </div>
       <div class="profile-layout">
@@ -107,7 +109,7 @@
 
     <section class="career section-shell" id="trayectoria" aria-labelledby="career-title">
       <div class="section-intro reveal">
-        <p class="section-label"><span aria-hidden="true">↗</span><b>TRAYECTORIA</b></p>
+        <p class="section-label"><span aria-hidden="true"><i class="bi bi-briefcase"></i></span><b>TRAYECTORIA</b></p>
         <h2 id="career-title">Experiencia técnica con contexto de <span>negocio real.</span></h2>
       </div>
       <div class="career-grid">
@@ -126,37 +128,43 @@
 
     <section class="toolkit section-shell" id="herramientas" aria-labelledby="toolkit-title">
       <div class="section-intro reveal">
-        <p class="section-label"><span aria-hidden="true">{ }</span><b>HERRAMIENTAS Y FORMA DE TRABAJO</b></p>
+        <p class="section-label"><span aria-hidden="true"><i class="bi bi-tools"></i></span><b>HERRAMIENTAS Y FORMA DE TRABAJO</b></p>
         <h2 id="toolkit-title">Tecnologías concretas para construir, analizar y <span>poner en marcha.</span></h2>
         <p>No me limito a diseñar pantallas. Puedo trabajar desde la estructura de datos y la lógica del sistema hasta la experiencia visual, la conectividad, las pruebas y la publicación.</p>
       </div>
       <div class="toolkit-grid reveal">
         <article class="toolkit-card toolkit-code">
+          <i class="toolkit-icon bi bi-code-slash" aria-hidden="true"></i>
           <p>Lenguajes</p>
           <h3>Programación</h3>
           <div class="tool-list"><span>Python</span><span>PHP</span><span>Java</span><span>JavaScript</span><span>TypeScript</span><span>C#</span><span>C++</span></div>
         </article>
         <article class="toolkit-card toolkit-web">
+          <i class="toolkit-icon bi bi-window" aria-hidden="true"></i>
           <p>Web y móvil</p>
           <h3>Interfaces y aplicaciones</h3>
           <div class="tool-list"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>Sass</span><span>Laravel</span><span>Angular</span><span>jQuery</span><span>AJAX</span><span>Android</span></div>
         </article>
         <article class="toolkit-card toolkit-data">
+          <i class="toolkit-icon bi bi-bar-chart-line" aria-hidden="true"></i>
           <p>Datos e IA</p>
           <h3>Análisis y visualización</h3>
           <div class="tool-list"><span>Pandas</span><span>NumPy</span><span>SciPy</span><span>Scikit-learn</span><span>Power BI</span><span>KNIME</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span><span>Jupyter</span></div>
         </article>
         <article class="toolkit-card toolkit-cloud">
+          <i class="toolkit-icon bi bi-database" aria-hidden="true"></i>
           <p>Bases de datos y nube</p>
           <h3>Información bien organizada</h3>
           <div class="tool-list"><span>MySQL</span><span>SQL Server</span><span>PostgreSQL</span><span>Firebase</span><span>Azure SQL</span><span>Data Factory</span><span>Synapse</span><span>Fabric</span><span>BigQuery</span></div>
         </article>
         <article class="toolkit-card toolkit-tools">
+          <i class="toolkit-icon bi bi-git" aria-hidden="true"></i>
           <p>Herramientas</p>
           <h3>Desarrollo y colaboración</h3>
           <div class="tool-list"><span>Git</span><span>GitHub</span><span>VS Code</span><span>XAMPP</span><span>Docker</span><span>Postman</span><span>Figma</span><span>Linux</span></div>
         </article>
         <article class="toolkit-card toolkit-network">
+          <i class="toolkit-icon bi bi-router" aria-hidden="true"></i>
           <p>Redes y telecomunicaciones</p>
           <h3>Conectividad y sistemas</h3>
           <div class="tool-list"><span>Cisco Packet Tracer</span><span>Routers</span><span>Switches</span><span>Routing</span><span>Switching</span><span>IP y subnetting</span><span>VLANs</span><span>OSI</span><span>TCP/IP</span><span>IoT</span><span>Microcontroladores</span><span>Señales</span><span>DSP</span></div>
@@ -177,24 +185,24 @@
 
     <section class="telecom section-shell" id="telecomunicaciones" aria-labelledby="telecom-title">
       <div class="section-intro reveal">
-        <p class="section-label"><span aria-hidden="true">⌁</span><b>TELECOMUNICACIONES</b></p>
+        <p class="section-label"><span aria-hidden="true"><i class="bi bi-router"></i></span><b>TELECOMUNICACIONES</b></p>
         <h2 id="telecom-title">Conectividad entendida desde la señal hasta la <span>red que opera.</span></h2>
         <p>Mi formación combina computación y telecomunicaciones. Puedo comprender, documentar y simular redes, analizar sus componentes y utilizar datos técnicos para detectar patrones, incidencias y oportunidades de mejora.</p>
       </div>
       <div class="telecom-stage reveal">
         <div class="telecom-core">
-          <span class="telecom-core-icon" aria-hidden="true">⌁</span>
+          <span class="telecom-core-icon" aria-hidden="true"><i class="bi bi-broadcast-pin"></i></span>
           <p>BASE TÉCNICA</p>
           <h3>Redes, señales y sistemas conectados</h3>
           <div class="telecom-path" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
         </div>
         <div class="telecom-grid">
-          <article><span aria-hidden="true">◉</span><div><h3>Redes y conectividad</h3><p>Routers, switches, routing, switching, topologías y simulación en Cisco Packet Tracer.</p></div></article>
-          <article><span aria-hidden="true">IP</span><div><h3>Direccionamiento</h3><p>IPv4, subredes básicas, segmentación, VLAN y lectura de diagramas de red.</p></div></article>
-          <article><span aria-hidden="true">⇄</span><div><h3>Modelos y protocolos</h3><p>Modelo OSI y TCP/IP como referencia para analizar comunicación y operación.</p></div></article>
-          <article><span aria-hidden="true">∿</span><div><h3>Señales y comunicaciones</h3><p>Señales y sistemas, comunicaciones analógicas y digitales, DSP e información.</p></div></article>
-          <article><span aria-hidden="true">IoT</span><div><h3>IoT y dispositivos</h3><p>Fundamentos de Internet de las Cosas, microcontroladores y sistemas conectados.</p></div></article>
-          <article><span aria-hidden="true">▥</span><div><h3>Datos en telecom</h3><p>Análisis de tráfico y registros con Excel, Python, SQL y Power BI para métricas e incidencias.</p></div></article>
+          <article><span aria-hidden="true"><i class="bi bi-router"></i></span><div><h3>Redes y conectividad</h3><p>Routers, switches, routing, switching, topologías y simulación en Cisco Packet Tracer.</p></div></article>
+          <article><span aria-hidden="true"><i class="bi bi-diagram-3"></i></span><div><h3>Direccionamiento</h3><p>IPv4, subredes básicas, segmentación, VLAN y lectura de diagramas de red.</p></div></article>
+          <article><span aria-hidden="true"><i class="bi bi-arrow-left-right"></i></span><div><h3>Modelos y protocolos</h3><p>Modelo OSI y TCP/IP como referencia para analizar comunicación y operación.</p></div></article>
+          <article><span aria-hidden="true"><i class="bi bi-soundwave"></i></span><div><h3>Señales y comunicaciones</h3><p>Señales y sistemas, comunicaciones analógicas y digitales, DSP e información.</p></div></article>
+          <article><span aria-hidden="true"><i class="bi bi-cpu"></i></span><div><h3>IoT y dispositivos</h3><p>Fundamentos de Internet de las Cosas, microcontroladores y sistemas conectados.</p></div></article>
+          <article><span aria-hidden="true"><i class="bi bi-activity"></i></span><div><h3>Datos en telecom</h3><p>Análisis de tráfico y registros con Excel, Python, SQL y Power BI para métricas e incidencias.</p></div></article>
         </div>
       </div>
     </section>
@@ -202,14 +210,14 @@
     <section class="projects" id="proyectos" aria-labelledby="projects-title">
       <div class="section-shell projects-head reveal">
         <div>
-          <p class="section-label"><span aria-hidden="true">◈</span><b>PROYECTOS PUBLICADOS</b></p>
+          <p class="section-label"><span aria-hidden="true"><i class="bi bi-window-stack"></i></span><b>PROYECTOS PUBLICADOS</b></p>
           <h2 id="projects-title">Proyectos listos para <span>explorar y usar.</span></h2>
         </div>
         <p>Educación ambiental, inventario, restaurante, citas, inmobiliaria, tienda y portafolios: cada proyecto resuelve una necesidad distinta y tiene un recorrido completo.</p>
       </div>
 
       <div class="filter-bar section-shell reveal" role="group" aria-label="Filtrar proyectos">
-        <button class="filter-button active" type="button" data-filter="all">Todos <span>07</span></button>
+        <button class="filter-button active" type="button" data-filter="all">Todos <span>7</span></button>
         <button class="filter-button" type="button" data-filter="sustainability">Sustentabilidad</button>
         <button class="filter-button" type="button" data-filter="operations">Operaciones</button>
         <button class="filter-button" type="button" data-filter="service">Servicios</button>
@@ -230,7 +238,7 @@
             <p>Centro operativo con inventario persistente, entradas y salidas, recepciones, alertas de existencias, búsqueda, filtros, métricas y exportación CSV.</p>
             <div class="case-features"><span>Altas y movimientos</span><span>Recepciones</span><span>Alertas</span><span>CSV</span></div>
             <div class="case-actions">
-              <a class="button button-primary" href="https://victorabel777.github.io/stockflow-inventario/" target="_blank" rel="noopener">Abrir experiencia <span>↗</span></a>
+              <a class="button button-primary" href="https://victorabel777.github.io/stockflow-inventario/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>Abrir StockFlow <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
             </div>
           </div>
         </article>
@@ -248,7 +256,7 @@
             <p>Restaurante digital con menú fotográfico, búsqueda, personalización de platillos, carrito, reservaciones validadas y pedido listo para WhatsApp.</p>
             <div class="case-features"><span>Menú completo</span><span>Carrito</span><span>Reservaciones</span><span>Pedido</span></div>
             <div class="case-actions">
-              <a class="button button-primary" href="https://victorabel777.github.io/brasa-olivo-restaurante/" target="_blank" rel="noopener">Abrir experiencia <span>↗</span></a>
+              <a class="button button-primary" href="https://victorabel777.github.io/brasa-olivo-restaurante/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>Visitar restaurante <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
             </div>
           </div>
         </article>
@@ -266,7 +274,7 @@
             <p>Agenda médica con especialidades, perfiles profesionales, horarios disponibles, datos del paciente, folios y administración de citas guardadas.</p>
             <div class="case-features"><span>Especialistas</span><span>Agenda</span><span>Folios</span><span>Mis citas</span></div>
             <div class="case-actions">
-              <a class="button button-primary" href="https://victorabel777.github.io/nexo-salud-citas/" target="_blank" rel="noopener">Abrir experiencia <span>↗</span></a>
+              <a class="button button-primary" href="https://victorabel777.github.io/nexo-salud-citas/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>Abrir Nexo Salud <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
             </div>
           </div>
         </article>
@@ -284,7 +292,7 @@
             <p>Portal inmobiliario con propiedades reales, filtros avanzados, favoritos, comparación, calculadora hipotecaria, fichas y solicitudes de recorrido.</p>
             <div class="case-features"><span>Filtros</span><span>Comparador</span><span>Hipoteca</span><span>Recorridos</span></div>
             <div class="case-actions">
-              <a class="button button-primary" href="https://victorabel777.github.io/lumen-real-estate/" target="_blank" rel="noopener">Abrir experiencia <span>↗</span></a>
+              <a class="button button-primary" href="https://victorabel777.github.io/lumen-real-estate/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>Explorar propiedades <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
             </div>
           </div>
         </article>
@@ -302,7 +310,7 @@
             <p>Tienda de interiores con catálogo fotográfico, búsqueda, filtros, favoritos, carrito persistente, cupón, envío y checkout completo con folio.</p>
             <div class="case-features"><span>Catálogo</span><span>Favoritos</span><span>Cupón</span><span>Checkout</span></div>
             <div class="case-actions">
-              <a class="button button-primary" href="https://victorabel777.github.io/nova-store/" target="_blank" rel="noopener">Abrir experiencia <span>↗</span></a>
+              <a class="button button-primary" href="https://victorabel777.github.io/nova-store/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>Visitar NOVA Store <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
             </div>
           </div>
         </article>
@@ -320,7 +328,7 @@
             <p>Sitio creado por Víctor Abel para presentar identidad, servicios, proyectos y material visual de forma ordenada, atractiva y lista para compartirse.</p>
             <div class="case-features"><span>Portafolio</span><span>Propaganda</span><span>Diseño editorial</span><span>Responsive</span></div>
             <div class="case-actions">
-              <a class="button button-primary" href="https://cristianbravo.kesug.com/?i=1" target="_blank" rel="noopener">Abrir experiencia <span>↗</span></a>
+              <a class="button button-primary" href="https://cristianbravo.kesug.com/?i=1" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>Ver portafolio <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
             </div>
           </div>
         </article>
@@ -338,7 +346,7 @@
             <p>Plataforma ambiental con campus interactivo, misiones de limpieza, clasificación de residuos, materiales educativos, foro, ranking y galería. La experiencia convierte la separación correcta en una aventura visual y participativa.</p>
             <div class="case-features"><span>Juego interactivo</span><span>Educación ambiental</span><span>Usuarios y ranking</span><span>Comunidad</span></div>
             <div class="case-actions">
-              <a class="button button-primary" href="https://residuosuamlerma.rf.gd/index.php" target="_blank" rel="noopener">Explorar Pantera Verde <span>↗</span></a>
+              <a class="button button-primary" href="https://residuosuamlerma.rf.gd/index.php" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>Explorar Pantera Verde <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
             </div>
           </div>
         </article>
@@ -347,10 +355,13 @@
 
     <section class="data-showcase section-shell" id="datos" aria-labelledby="data-title">
       <div class="data-copy reveal">
-        <p class="section-label"><span aria-hidden="true">▥</span><b>DATOS E IA</b></p>
+        <p class="section-label"><span aria-hidden="true"><i class="bi bi-bar-chart-line"></i></span><b>DATOS E IA</b></p>
         <h2 id="data-title">Del dato crudo a una decisión que <span>sí se puede defender.</span></h2>
         <p>Trabajo con Python, Pandas, NumPy, SciPy, Scikit-learn, SQL, Power BI, KNIME, Excel, Azure Data Factory, Synapse, Fabric y BigQuery. El laboratorio incluye dashboard, simulador de KPIs y análisis real de archivos CSV en el navegador.</p>
-        <a class="button button-primary" href="analisis-datos/">Entrar al laboratorio <span>↗</span></a>
+        <div class="data-actions">
+          <a class="button button-primary" href="analisis-datos/"><i class="bi bi-graph-up-arrow" aria-hidden="true"></i>Entrar al laboratorio <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+          <a class="button button-glass" href="analisis-datos/#certificados"><i class="bi bi-patch-check" aria-hidden="true"></i>Ver certificados <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+        </div>
       </div>
       <div class="certificate-stack reveal" aria-label="Vista previa de certificados">
         <a href="assets/certificates/excel-negocios-avanzado.pdf" target="_blank" rel="noopener"><img src="assets/certificates/previews/excel-negocios-avanzado.png" alt="Certificado Excel aplicado a los negocios nivel avanzado" loading="lazy"><span>Excel avanzado</span></a>
@@ -368,12 +379,12 @@
     <section class="contact section-shell" id="contacto" aria-labelledby="contact-title">
       <div class="contact-card reveal">
         <div class="contact-grid" aria-hidden="true"></div>
-        <p class="section-label"><span aria-hidden="true">@</span><b>CONTACTO</b></p>
+        <p class="section-label"><span aria-hidden="true"><i class="bi bi-chat-dots"></i></span><b>CONTACTO</b></p>
         <h2 id="contact-title">¿Tienes una idea?<br><span>Hagámosla imposible de ignorar.</span></h2>
         <p>Cuéntame qué necesita tu negocio o proyecto y construimos una solución clara, funcional y con una identidad propia.</p>
         <div class="contact-actions">
-          <a class="button button-primary" href="https://wa.me/527471140204">Escribir por WhatsApp ↗</a>
-          <a class="button button-glass" href="mailto:vicrodg13@gmail.com">vicrodg13@gmail.com</a>
+          <a class="button button-primary" href="https://wa.me/527471140204"><i class="bi bi-whatsapp" aria-hidden="true"></i>Escribir por WhatsApp <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
+          <a class="button button-glass" href="mailto:vicrodg13@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i>Enviar correo <span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>
         </div>
       </div>
     </section>
