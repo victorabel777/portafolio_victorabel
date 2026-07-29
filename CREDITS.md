@@ -19,9 +19,14 @@ Las fotografías de las galerías se sirven desde [Unsplash](https://unsplash.co
 - NOVA Store: fotos `1570109635237-4653cebfb9bb`, `1441986300917-64674bd600d8` y `1484101403633-562f891dc89a`.
 - Perfil y trayectoria: fotos `1555066931-4365d14bab8c`, `1551288049-bebda4e38f71`, `1620712943543-bcc4688e7485`, `1516321318423-f06f85e504b3` y `1556761175-b413da4baf72`.
 - Portafolio Cristian Bravo: fotos de presentación `1487958449943-2429e8be8625`, `1497366754035-f200968a6e72` y `1497366811353-6870744d04b2`.
+- Pantera Verde UAM: captura del sitio proporcionado por Víctor Abel y fotografías `1611284446314-60a58ac0deb9` de Nareeta Martin y `1532996122724-e3c354a0b15b` de Pawel Czerwinski.
 
 Uso conforme a la [Licencia de Unsplash](https://unsplash.com/license).
 
 ## Portafolio de Cristian Bravo
 
 El [portafolio de Cristian Bravo](https://cristianbravo.kesug.com/?i=1) se presenta como una demo desarrollada por Víctor Abel Rodríguez Aparicio.
+
+## Documentos profesionales
+
+El CV en inglés, los certificados de Excel avanzado y GenAI for Everyone, y la insignia Fundamentos de IA generativa fueron proporcionados por Víctor Abel Rodríguez Aparicio para su publicación en el portafolio.

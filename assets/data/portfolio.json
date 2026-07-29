@@ -1,11 +1,19 @@
 {
   "profile": {
     "name": "Víctor Abel Rodríguez Aparicio",
-    "focus": "Desarrollo de sistemas web · Análisis de datos · IA aplicada",
+    "focus": "Desarrollo web · Análisis de datos · Redes y telecomunicaciones · IA aplicada",
     "availability": "Disponible para proyectos freelance",
     "location": "Toluca, Estado de México"
   },
   "projects": [
+    {
+      "id": "pantera-verde-uam",
+      "name": "Pantera Verde UAM",
+      "category": "Educación ambiental interactiva",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://residuosuamlerma.rf.gd/index.php"
+    },
     {
       "id": "inventario",
       "name": "StockFlow",
@@ -95,9 +103,57 @@
     "Docker",
     "Postman",
     "Figma",
-    "Linux"
+    "Linux",
+    "Cisco Packet Tracer",
+    "Routers",
+    "Switches",
+    "Routing",
+    "Switching",
+    "Direccionamiento IP",
+    "Subnetting",
+    "VLANs",
+    "Modelo OSI",
+    "TCP/IP",
+    "Internet of Things",
+    "Microcontroladores",
+    "Señales y sistemas",
+    "Procesamiento digital de señales",
+    "Análisis de tráfico y logs"
   ],
   "certificates": [
+    {
+      "id": "excel-negocios-avanzado",
+      "name": "Excel aplicado a los negocios (Nivel Avanzado)",
+      "issuer": "Universidad Austral · Coursera",
+      "date": "Julio 2026",
+      "area": "Datos",
+      "url": "../assets/certificates/excel-negocios-avanzado.pdf",
+      "preview": "../assets/certificates/previews/excel-negocios-avanzado.png",
+      "verificationUrl": "https://coursera.org/verify/VVLNYFO7OL1L",
+      "featured": true
+    },
+    {
+      "id": "fundamentos-ia-generativa",
+      "name": "Fundamentos de IA generativa",
+      "issuer": "Open Academy · Coursera",
+      "date": "Julio 2026",
+      "area": "IA",
+      "url": "../assets/certificates/fundamentos-ia-generativa-badge.png",
+      "preview": "../assets/certificates/previews/fundamentos-ia-generativa-badge.png",
+      "verificationUrl": "https://coursera.org/share/2ca39c66c8e080008248e2e0b944b8d5",
+      "featured": true
+    },
+    {
+      "id": "genai-for-everyone",
+      "name": "GenAI for Everyone",
+      "issuer": "Coursera",
+      "date": "Julio 2026",
+      "area": "IA",
+      "url": "../assets/certificates/genai-for-everyone.pdf",
+      "preview": "../assets/certificates/previews/genai-for-everyone.png",
+      "verificationUrl": "https://coursera.org/verify/OLUWHVQBFCCB",
+      "featured": true
+    },
     {
       "id": "genai-data-analytics",
       "name": "GenAI in Data Analytics",
@@ -167,5 +223,5 @@
       "preview": "../assets/certificates/previews/chatgpt.webp"
     }
   ],
-  "updatedAt": "2026-07-19T09:00:00.000Z"
+  "updatedAt": "2026-07-29T01:55:00.000Z"
 }
