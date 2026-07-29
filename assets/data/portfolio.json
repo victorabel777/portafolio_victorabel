@@ -7,14 +7,6 @@
   },
   "projects": [
     {
-      "id": "pantera-verde-uam",
-      "name": "Pantera Verde UAM",
-      "category": "Educación ambiental interactiva",
-      "status": "Publicado",
-      "progress": 100,
-      "liveUrl": "https://residuosuamlerma.rf.gd/index.php"
-    },
-    {
       "id": "inventario",
       "name": "StockFlow",
       "category": "Sistema de inventario",
@@ -61,6 +53,14 @@
       "status": "Publicado",
       "progress": 100,
       "liveUrl": "https://cristianbravo.kesug.com/?i=1"
+    },
+    {
+      "id": "pantera-verde-uam",
+      "name": "Pantera Verde UAM",
+      "category": "Educación ambiental interactiva",
+      "status": "Publicado",
+      "progress": 100,
+      "liveUrl": "https://residuosuamlerma.rf.gd/index.php"
     }
   ],
   "skills": [
@@ -223,5 +223,5 @@
       "preview": "../assets/certificates/previews/chatgpt.webp"
     }
   ],
-  "updatedAt": "2026-07-29T01:55:00.000Z"
+  "updatedAt": "2026-07-29T03:10:00.000Z"
 }
