@@ -29,4 +29,8 @@ El [portafolio de Cristian Bravo](https://cristianbravo.kesug.com/?i=1) se prese
 
 ## Documentos profesionales
 
-El CV en inglés, los certificados de Excel avanzado y GenAI for Everyone, y la insignia Fundamentos de IA generativa fueron proporcionados por Víctor Abel Rodríguez Aparicio para su publicación en el portafolio.
+Los CV en español e inglés, los certificados de Excel avanzado y GenAI for Everyone, y la insignia Fundamentos de IA generativa fueron proporcionados por Víctor Abel Rodríguez Aparicio para su publicación en el portafolio.
+
+## Identidades de proyectos
+
+Los nuevos emblemas de StockFlow, Brasa & Olivo, Nexo Salud, Lumen y NOVA fueron creados específicamente para estos proyectos mediante la herramienta integrada de generación de imágenes de OpenAI.
