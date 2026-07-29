@@ -235,15 +235,17 @@ function renderCertificates() {
     const verification = certificate.verificationUrl
       ? `<a class="secondary-link" href="${escapeHtml(safeUrl(certificate.verificationUrl))}" target="_blank" rel="noopener">Verificar ↗</a>`
       : '';
+    const documentLabel = certificate.url.toLocaleLowerCase('es').endsWith('.pdf') ? 'Abrir PDF' : 'Ver insignia';
+    const cardClass = certificate.id === 'fundamentos-ia-generativa' ? ' certificate-card-badge' : '';
     return `
-      <article class="certificate-card">
+      <article class="certificate-card${cardClass}">
         <div class="certificate-media"><img src="${escapeHtml(safeUrl(certificate.preview))}" alt="Vista previa de ${escapeHtml(certificate.name)}" loading="lazy"></div>
         <div class="certificate-content">
           <div class="certificate-meta"><span>${escapeHtml(certificate.area)}</span><span>${escapeHtml(certificate.date)}</span></div>
           <h3>${escapeHtml(certificate.name)}</h3>
           <p>${escapeHtml(certificate.issuer)}</p>
           <div class="certificate-actions">
-            <a href="${escapeHtml(safeUrl(certificate.url))}" target="_blank" rel="noopener">Abrir PDF ↗</a>
+            <a href="${escapeHtml(safeUrl(certificate.url))}" target="_blank" rel="noopener">${documentLabel} ↗</a>
             ${verification}
           </div>
         </div>
